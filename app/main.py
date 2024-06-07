@@ -19,4 +19,5 @@ class Item(BaseModel):
 
 @app.get("/")
 def read_root():
+
     return RedirectResponse(url="/docs")
